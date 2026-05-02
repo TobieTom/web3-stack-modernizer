@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+name: "web3-stack-modernizer"
+version: "0.1.0"
+description: "Modernize your entire Web3 frontend stack in one command. Automatically migrates wagmi v1→v2, ethers v5→v6, and RainbowKit v1→v2 with zero false positives"
+author: "TobieTom <tobijunior06@outlook.com>"
+license: "MIT"
+repository: "https://github.com/TobieTom/web3-stack-modernizer"
+
+targets:
+  # Keep this aligned with the files matched in workflow.yaml.
+  languages: ["typescript"]
+
+keywords: ["transformation", "migration"]
+
+registry:
+  access: "public"
+  visibility: "public"
+
+capabilities: []
+
+workflows:
+  - name: main
+    default: true
+    path: workflow.yaml
