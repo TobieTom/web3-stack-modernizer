@@ -35,7 +35,7 @@ nodes:
       - name: "Scan typescript files and apply fixes"
         js-ast-grep:
           js_file: scripts/codemod.ts
-          language: "typescript"
+          language: "tsx"
 
   - id: shell-cleanup
     name: Cleanup (shell)

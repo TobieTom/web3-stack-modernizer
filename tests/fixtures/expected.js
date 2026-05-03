@@ -1,3 +1,3 @@
-const oldVariable = "should be const";
-const anotherVar = 42;
+var oldVariable = "should be const";
+var anotherVar = 42;
 console.log("debug statement");

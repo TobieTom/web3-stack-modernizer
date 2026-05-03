@@ -1,3 +1,4 @@
-#!/bin/bash
-echo "Setting up transformation environment..."
-# Add your setup logic here 
+#!/usr/bin/env bash
+set -e
+echo "Setting up web3-stack-modernizer..."
+bash "${CODEMOD_PATH}/scripts/detect.sh"
